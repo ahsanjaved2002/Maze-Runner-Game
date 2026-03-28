@@ -11,6 +11,7 @@ void Get_Data_From_File(char* filename, char** &data, int &rows, int &cols)
 		delete[] data;
 	}
 
+
 	ifstream fin(filename);
 	fin >> rows;
 	fin >> cols;
